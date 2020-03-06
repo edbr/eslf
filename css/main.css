@@ -13,10 +13,29 @@
 
 html {
   color: #222;
-  font-size: 1em;
-  line-height: 1.4;
 }
 
+p:first-letter{
+               text-transform: uppercase;
+          }
+        p {
+        color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+ letter-spacing:0.1em;
+ text-align:center;
+ margin: 40px auto;
+ text-transform: lowercase;
+ line-height: 115%;
+ font-size: 72pt;
+ font-variant: small-caps;
+        }
+
+cite{
+  text-align: center;
+  margin: 40px;
+  font-size: 36pt;
+  font-variant: small-caps;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -262,4 +281,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
