@@ -13,6 +13,7 @@
 
 html {
   color: #222;
+  padding: 100px;
 }
 
 p:first-letter{
@@ -21,21 +22,49 @@ p:first-letter{
         p {
         color: #424242;
         font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
- letter-spacing:0.1em;
- text-align:center;
- margin: 40px auto;
- text-transform: lowercase;
- line-height: 115%;
- font-size: 72pt;
- font-variant: small-caps;
+        letter-spacing:0.1em;
+        text-align:center;
+        margin: 40px auto;
+        text-transform: lowercase;
+        line-height: 115%;
+        font-size: 72pt;
+        font-variant: small-caps;
         }
 
 cite{
+  color: #424242;
+  font-size: 120%;
+  line-height: 120%;
+  letter-spacing:2em;
+  margin: 40px auto;
   text-align: center;
-  margin: 40px;
-  font-size: 36pt;
   font-variant: small-caps;
 }
+
+@media only screen and (max-width: 900px) {
+   p {
+     color: #424242;
+     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+     letter-spacing:0.1em;
+     text-align:center;
+     margin: 40px auto;
+     text-transform: lowercase;
+     line-height: 115%;
+     font-size: 20pt;
+     font-variant: small-caps;
+}
+
+@media only screen and (max-width: 900px) {
+   cite {
+     color: #424242;
+     font-size: 80%;
+     line-height: 120%;
+     letter-spacing:2em;
+     margin: 40px auto;
+     text-align: center;
+     font-variant: small-caps;;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
