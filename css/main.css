@@ -20,7 +20,7 @@ p:first-letter{
                text-transform: uppercase;
           }
         p {
-        color: #424242;
+        color: #fff;
         font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
         letter-spacing:0.1em;
         text-align:center;
@@ -32,7 +32,7 @@ p:first-letter{
         }
 
 cite{
-  color: #424242;
+  color: #f8f8f8;
   font-size: 120%;
   line-height: 120%;
   letter-spacing:2em;
@@ -71,7 +71,7 @@ button {
 
 @media only screen and (max-width: 900px) {
    p {
-     color: #424242;
+     color: #fff;
      font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
      font-size: 160%;
      line-height: 120%;
@@ -83,7 +83,7 @@ button {
 
 @media only screen and (max-width: 900px) {
    cite {
-     color: #424242;
+     color: #f8f8f8;
      font-size: 80%;
      line-height: 120%;
      letter-spacing:2em;
