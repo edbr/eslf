@@ -5,9 +5,9 @@ $(".quote")
   .fadeIn(1000);
 
   function random_bg_color() {
-    var x = Math.floor(Math.random() * 256);
-    var y = Math.floor(Math.random() * 256);
-    var z = Math.floor(Math.random() * 256);
+    var x = Math.floor(Math.random() * 56);
+    var y = Math.floor(Math.random() * 56);
+    var z = Math.floor(Math.random() * 56);
     var bgColor = "rgb(" + x + "," + y + "," + z + ")";
  console.log(bgColor);
 
